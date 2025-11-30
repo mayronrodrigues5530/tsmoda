@@ -103,10 +103,39 @@ ul#menu-fotos {
     margin: auto;
     columns: 2;
     padding-left: 0px;
+    
 }
 
 #menu-fotos img {
     border-radius: 50%;
+    margin: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.288);
+}
+
+#menu-fotos img:hover {
+    transition: 0.5s, border 0.5s;
+    transform:translate(-3px, -3px);
+    box-shadow: 4px 10px 12px rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    background-color: var(--cor0);
+    padding: 10px;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer img {
+    padding-left: 20px;
+}
+
+footer img:hover {
+    transform: translate(-3px, -3px);
+    transition: 0.5s;
 }
 
 
