@@ -97,6 +97,18 @@ main {
     padding: 20px;
 }
 
+ul#menu-fotos {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    columns: 2;
+    padding-left: 0px;
+}
+
+#menu-fotos img {
+    border-radius: 50%;
+}
+
 
 
 
